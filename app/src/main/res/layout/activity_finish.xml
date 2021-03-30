@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/s_three"
+    android:layout_height="match_parent"
+    tools:context=".FinishActivity">
+    <LinearLayout
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <EditText
+            android:layout_width="match_parent"
+            android:hint="Your  full Name..."
+            android:padding="10dp"
+            android:layout_margin="20dp"
+            android:inputType="textPersonName"
+            android:id="@+id/etEmail"
+            android:background="@drawable/input_outline"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:layout_width="match_parent"
+            android:hint="Phone e.g 254704808070..."
+            android:padding="10dp"
+            android:layout_margin="20dp"
+            android:inputType="phone"
+            android:id="@+id/etPhone"
+            android:background="@drawable/input_outline"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:layout_width="match_parent"
+            android:hint="Location e.g Eldoret,Kesses..."
+            android:padding="10dp"
+            android:layout_margin="20dp"
+            android:inputType="text"
+            android:id="@+id/etLocation"
+            android:background="@drawable/input_outline"
+            android:layout_height="wrap_content" />
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_margin="5dp"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:text="Farmer"
+                android:id="@+id/rbFarmer"
+                android:textColor="@color/colorWhite"
+                android:textStyle="bold"
+                android:layout_height="wrap_content" />
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:text="Customer"
+                android:id="@+id/rbCustomer"
+
+                android:textColor="@color/colorWhite"
+                android:textStyle="bold"
+                android:layout_height="wrap_content" />
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:text="Other"
+                android:textColor="@color/colorWhite"
+                android:textStyle="bold"
+                android:id="@+id/rbOther"
+
+                android:layout_height="wrap_content" />
+        </RadioGroup>
+        <Button
+            android:layout_width="match_parent"
+            android:text="FINISH SETUP"
+            android:layout_marginTop="100dp"
+            android:id="@+id/btnFinish"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/input_outline_rev"
+            android:padding="10dp"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</ScrollView>

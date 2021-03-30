@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#09cc50</color>
+    <color name="colorPrimaryDark">#09cc50</color>
+    <color name="colorIndicator">#9FBB33</color>
+
+    <color name="colorAccent">#7e4459</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorRed">#c2c2c2</color>
+    <color name="colorBlack">#000000</color>
+
+
+    <array name="dot_active">
+
+        <item>@color/colorWhite</item>
+        <item>@color/colorAccent</item>
+        <item>@color/colorWhite</item>
+        <item>@color/colorPrimary</item>
+        <item>@color/colorPrimaryDark</item>
+
+    </array>
+    <array name="dot_inactive">
+        <item>@color/colorWhite</item>
+        <item>@color/colorAccent</item>
+        <item>@color/colorWhite</item>
+        <item>@color/colorPrimary</item>
+        <item>@color/colorPrimaryDark</item>
+    </array>
+</resources>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:background="@drawable/s_three"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+    <LinearLayout
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <EditText
+            android:layout_width="match_parent"
+            android:hint="Enter email..."
+            android:padding="10dp"
+            android:layout_margin="20dp"
+            android:inputType="textEmailAddress"
+            android:id="@+id/etEmail"
+            android:background="@drawable/input_outline"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:layout_width="match_parent"
+            android:hint="Enter password..."
+            android:padding="10dp"
+            android:inputType="textPassword"
+            android:layout_margin="20dp"
+            android:id="@+id/etPassword"
+            android:background="@color/colorWhite"
+            android:layout_height="wrap_content" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_margin="10dp"
+            android:text="CREATE ACCOUNT"
+            android:id="@+id/btnLogin"
+            android:background="@drawable/input_outline_rev"
+            android:padding="10dp"
+            android:layout_height="wrap_content" />
+
+
+            <TextView
+                android:onClick="login"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:text="Login Instead? "
+                android:layout_gravity="left"
+                android:gravity="left"
+                android:textColor="@color/colorWhite"
+                android:textSize="20sp"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:padding="4dp"
+                android:layout_height="wrap_content" />
+
+    </LinearLayout>
+</ScrollView>

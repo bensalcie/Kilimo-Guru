@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@drawable/s_one"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:textSize="25sp"
+        android:background="@android:drawable/editbox_background"
+        android:backgroundTintMode="screen"
+        android:textColor="@color/colorBlack"
+        android:fontFamily="sans-serif-condensed"
+        android:layout_margin="7dp"
+        android:gravity="center"
+        android:padding="3dp"
+        android:layout_gravity="center"
+        android:text="Get all the best tips on how to go about farming and make money by venturing into agriculture ...We are open to partnerships and collaborations.   Feel free to interact with us ,thank you for downloading this app."
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

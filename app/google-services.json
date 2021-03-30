@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "950308336504",
+    "firebase_url": "https://projects-5ea31.firebaseio.com",
+    "project_id": "projects-5ea31",
+    "storage_bucket": "projects-5ea31.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:950308336504:android:386d5ee68fd681eb",
+        "android_client_info": {
+          "package_name": "org.is_great.bensalcie.agrihub"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "950308336504-j5lf46qfqd460ahhcndfkr73am8sk4lp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "org.is_great.bensalcie.agrihub",
+            "certificate_hash": "3dc0115bd5b3357a8d9e5bfde05e4166630043d4"
+          }
+        },
+        {
+          "client_id": "950308336504-he3tmersou2r15o2pv1q659a4hf0600q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsN6fMdoh8dtuoFGcFeuQ-f8SsvTBRV4s"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "950308336504-he3tmersou2r15o2pv1q659a4hf0600q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

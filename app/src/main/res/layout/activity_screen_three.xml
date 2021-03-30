@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@drawable/s_one"
+    android:gravity="center"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:textSize="25sp"
+        android:backgroundTintMode="screen"
+        android:textColor="@color/colorBlack"
+        android:layout_margin="7dp"
+        android:gravity="center"
+        android:fontFamily="sans-serif-condensed"
+        android:background="@android:drawable/editbox_background"
+        android:padding="3dp"
+        android:layout_gravity="center"
+        android:text="Farmer?    and need to sell your farm produce? ,Simply create an account and select farmer as your category, and boom! ,You have access to all customers on our app."
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

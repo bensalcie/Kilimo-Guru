@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_fiber_new_black_24dp"
+            android:title="Latest" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_add_shopping_cart_black_24dp"
+            android:title="Shop" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_monetization_on_black_24dp"
+            android:title="My Cart" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_business_center_black_24dp"
+            android:title="Wallet" />
+    </group>
+
+    <item android:title="Explore Skills">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_date_range_black_24dp"
+                android:title="Calendar" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_clear_all_black_24dp"
+                android:title="Opportunities" />
+        </menu>
+    </item>
+    <item android:title="Share ">
+        <menu>
+            <item
+                android:id="@+id/friend"
+                android:icon="@drawable/ic_plus_one_black_24dp"
+                android:title="Recommend Friend" />
+            <item
+                android:id="@+id/share"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Share App" />
+        </menu>
+    </item>
+
+</menu>

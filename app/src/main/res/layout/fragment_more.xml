@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MoreFragment">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        app:cardCornerRadius="15dp"
+        app:cardElevation="3dp"
+
+        android:layout_margin="5dp"
+        android:padding="1dp"
+        app:cardUseCompatPadding="true"
+        app:cardPreventCornerOverlap="true"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:padding="4dp"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:background="@android:drawable/editbox_background"
+                android:layout_width="match_parent"
+                android:src="@drawable/wallet"
+                android:scaleType="centerCrop"
+                android:layout_margin="5dp"
+                android:padding="6dp"
+                android:id="@+id/ivNotify"
+                android:layout_gravity="start"
+                android:layout_height="250dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:text="Your Wallet"
+                android:textSize="20sp"
+                android:gravity="center_horizontal"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/tvETitle"
+                android:textStyle="bold"
+                android:layout_height="wrap_content" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="N/A"
+                    android:textSize="40sp"
+                    android:fontFamily="cursive"
+                    android:layout_weight="1"
+                    android:id="@+id/tvPoints"
+                    android:textColor="#ED1E1A"
+                    android:gravity="center_horizontal"
+                    android:layout_marginTop="17dp"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@android:drawable/editbox_background"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="N/A"
+                    android:textSize="40sp"
+                    android:fontFamily="cursive"
+                    android:layout_weight="1"
+                    android:id="@+id/tvKsh"
+                    android:textColor="#ED1E1A"
+                    android:gravity="center_horizontal"
+                    android:layout_marginTop="17dp"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@android:drawable/editbox_background"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:text="You earn free points by: Creating an account with us, shopping ,suggesting farmers and daily engagements within our app.Stay competitive ,get more points and shop for free, which are later redeemed to aid in shopping. "
+                android:textSize="14sp"
+                android:layout_margin="4dp"
+                android:id="@+id/tvRatings"
+                android:autoLink="web"
+                android:linksClickable="true"
+                android:textIsSelectable="true"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

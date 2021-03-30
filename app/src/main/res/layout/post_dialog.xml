@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="center"
+    app:cardPreventCornerOverlap="true"
+    app:cardUseCompatPadding="true"
+    app:cardBackgroundColor="@color/colorWhite"
+    >
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:layout_width="250dp"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="match_parent"
+            android:src="@drawable/ic_image_black_24dp"
+            android:scaleType="centerCrop"
+android:layout_margin="2dp"
+            android:id="@+id/product_photo"
+            android:layout_height="150dp" />
+        <EditText
+            android:background="@null"
+            android:layout_width="match_parent"
+            android:layout_marginTop="6dp"
+            android:hint=" Product Title..."
+            android:layout_marginBottom="8dp"
+            android:padding="7dp"
+            android:inputType="text"
+            android:gravity="start"
+            android:id="@+id/etTitle"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_marginTop="6dp"
+            android:hint="  Description here..."
+            android:lines="5"
+            android:padding="7dp"
+            android:layout_marginBottom="7dp"
+            android:background="@null"
+            android:id="@+id/etDescription"
+            android:gravity="start"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_marginTop="6dp"
+            android:hint=" Amount here ..."
+            android:layout_margin="3dp"
+            android:id="@+id/etAmount"
+            android:layout_marginBottom="5dp"
+            android:background="@null"
+            android:layout_gravity="center"
+            android:inputType="number"
+            android:layout_height="wrap_content" />
+        <Button
+            android:layout_width="wrap_content"
+            android:text="  SELL PRODUCT  "
+            android:layout_marginTop="8dp"
+            android:backgroundTint="@color/colorAccent"
+            android:textColor="@color/colorWhite"
+            android:id="@+id/btnSell"
+            android:layout_marginBottom="7dp"
+            android:background="@android:drawable/editbox_background"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</android.support.design.card.MaterialCardView>

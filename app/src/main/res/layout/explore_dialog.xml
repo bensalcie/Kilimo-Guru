@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="15dp"
+    app:cardPreventCornerOverlap="true"
+    app:cardUseCompatPadding="true"
+    app:cardElevation="3dp"
+    >
+    <LinearLayout
+        android:layout_margin="20dp"
+android:padding="20dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_width="300dp"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <EditText
+            android:layout_margin="5dp"
+            android:padding="5dp"
+
+            android:inputType="text"
+            android:layout_width="match_parent"
+            android:lines="1"
+            android:hint="Enter Title..."
+            android:id="@+id/etTitle"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:layout_margin="5dp"
+            android:padding="5dp"
+            android:inputType="datetime"
+            android:layout_width="match_parent"
+            android:lines="1"
+            android:hint="Date/ Time e.g 12/12/12 2:14 ..."
+            android:id="@+id/etDateTime"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:layout_margin="5dp"
+            android:padding="5dp"
+            android:layout_width="match_parent"
+            android:lines="4"
+            android:gravity="start"
+            android:hint="Enter Description..."
+            android:id="@+id/etDescription"
+            android:layout_height="wrap_content" />
+        <RadioGroup
+            android:layout_margin="5dp"
+            android:padding="5dp"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:text="Calendar"
+                android:layout_height="wrap_content" />
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:text="Opportunity"
+                android:layout_height="wrap_content" />
+        </RadioGroup>
+
+        <Button
+            android:background="@android:drawable/editbox_background"
+            android:layout_width="match_parent"
+            android:layout_margin="4dp"
+            android:id="@+id/btnPost"
+            android:padding="4dp"
+            android:backgroundTint="@color/colorIndicator"
+            android:text="POST TO EXPLORE SKILLS"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

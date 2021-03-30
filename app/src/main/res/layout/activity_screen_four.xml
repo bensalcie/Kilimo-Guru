@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@drawable/s_one"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:textSize="25sp"
+        android:backgroundTintMode="screen"
+        android:textColor="@color/colorBlack"
+        android:background="@android:drawable/editbox_background"
+        android:layout_margin="7dp"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="center"
+        android:padding="3dp"
+        android:layout_gravity="center"
+        android:text="Customer ?    and need to buy  farm products ? ,Simply create an account and select customer as your category, and boom! ,You have access to all your favourite farm products,shop anywhere all times on our app."
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

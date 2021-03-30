@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+ android:gravity="center"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MarketFragment">
+
+
+
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:id="@+id/latest_list"
+        android:visibility="visible"
+        android:layout_height="match_parent"/>
+    <Button
+        android:layout_width="match_parent"
+        android:padding="15dp"
+        android:textSize="20sp"
+        android:id="@+id/btnCheckout"
+        android:textColor="@color/colorWhite"
+        android:gravity="center"
+        android:backgroundTint="@color/colorIndicator"
+        android:layout_marginBottom="40dp"
+        android:layout_alignParentBottom="true"
+        android:foregroundGravity="center"
+        android:text="CHECKOUT"
+        android:background="@android:drawable/editbox_background"
+        android:layout_height="wrap_content" />
+
+
+</RelativeLayout>
